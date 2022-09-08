@@ -1,0 +1,112 @@
+@font-face {
+  src: url(../Fonts/rustic-and-beautiful.otf);
+  font-family: rustic;
+}
+html {
+  max-height: 100%;
+}
+body {
+  background-image: url(../Images/menu2.jpg);
+  margin: 8%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.grid {
+  background-image: url(../Images/menu.jpg);
+  filter: brightness(120%);
+  display: grid;
+  min-width: 350px;
+  border-style: solid;
+  border-color: #333;
+  border-width: 0 5px;
+  border-block: solid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.food {
+  font-family: rustic;
+  max-width: 200px;
+  padding-left: 15%;
+}
+
+.foodTitle {
+  font-size: 35px;
+  border-bottom: 3px solid black;
+  margin-bottom: -10px;
+}
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: auto 1fr;
+}
+.description h3 {
+  font-size: 180%;
+  line-height: normal;
+  margin-bottom: -15px;
+}
+.description p {
+  line-height: 15px;
+  max-width: 150px;
+  color: black;
+  font-size: 120%;
+}
+.footer {
+  grid-column: span 3;
+}
+.footerSection {
+  padding: 0px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 2fr;
+  gap: 4%;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-links h6 {
+  font-size: 20px;
+  color: wheat;
+  margin: 1px;
+  text-align: center;
+}
+.footer-food {
+  border-radius: 80%;
+  max-width: 100%;
+  height: auto;
+}
+.footer-map {
+  min-width: 100%;
+  min-height: auto;
+  margin-top: 5%;
+}
+.footer-home {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: auto;
+  opacity: 0.6;
+  margin-left: 2%;
+}
+.footer-whatsapp {
+  min-width: 95%;
+  max-width: 95%;
+  min-height: auto;
+  opacity: 0.6;
+}
+.footer-links a {
+  text-decoration: none;
+}
+
+.footer-links a:hover img {
+  opacity: initial;
+}
