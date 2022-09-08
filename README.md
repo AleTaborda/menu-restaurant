@@ -1,2 +1,3 @@
 # menu-restaurant
-Menu of a made up restaurant
+
+Restaurant Menu design using only HTML and CSS Flexbox and Grid.
